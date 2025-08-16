@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karan Sharma — Portfolio & Resume</title>
+  <meta name="description" content="Portfolio of Karan Sharma: Machine Learning Engineer focused on MLOps, Computer Vision, and NLP." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="icon" href="data:," />
+  
+  <!-- Styles & script -->
+  <link rel="preload" href="assets/styles.css" as="style">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/main.js"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Karan Sharma — Portfolio & Resume" />
+  <meta property="og:description" content="MLOps · Computer Vision · NLP · Backend" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://krn-sharma.github.io" />
+
+  <!-- Structured data (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Karan Sharma",
+    "url": "https://krn-sharma.github.io",
+    "jobTitle": "Machine Learning Engineer",
+    "email": "mailto:krnsharma0209@gmail.com",
+    "sameAs": [
+      "https://github.com/krn-sharma",
+      "https://linkedin.com/krnsharma"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="nav container" aria-label="Primary">
+      <div class="brand"><a href="#top">Karan Sharma</a></div>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <button class="btn ghost theme-toggle" type="button" aria-label="Toggle theme" title="Toggle dark/light">🌓</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="intro-title">
+      <div>
+        <h1 id="intro-title">Hi, I’m <span class="accent">Karan Sharma</span></h1>
+        <p class="subtitle">Machine Learning Engineer · Göttingen, Germany</p>
+        <p>ML engineer focused on <strong>MLOps</strong>, <strong>Computer Vision</strong>, and <strong>NLP</strong>. I build reproducible pipelines on HPC (ZenML/MLflow, SLURM), ship imaging and ECG models to production‑ready workflows, and integrate CI/CD for research at scale.</p>
+        <div class="tags" aria-label="Key skills">
+          <span class="tag">Python</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">MLOps</span>
+          <span class="tag">SLURM</span>
+        </div>
+        <div class="buttons">
+          <a class="btn primary" href="resume.pdf" download>⬇️ Download Resume</a>
+          <a class="btn" href="mailto:krnsharma0209@gmail.com">✉️ Email</a>
+          <a class="btn" href="https://github.com/krn-sharma" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://linkedin.com/krnsharma" target="_blank" rel="noopener">LinkedIn</a>
+          <button class="btn print-btn" onclick="window.print()">🖨️ Print</button>
+        </div>
+      </div>
+      <img class="avatar" src="https://github.com/krn-sharma.png" alt="Photo of Karan Sharma" />
+    </section>
+
+    <!-- PROJECTS (auto-generated from data/projects.json) -->
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Featured Projects</h2>
+      <div id="projects-grid" class="grid projects" aria-live="polite">
+        <noscript>Please enable JavaScript to load projects.</noscript>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" aria-labelledby="exp-title">
+      <h2 id="exp-title">Experience</h2>
+      <div class="timeline">
+        <div class="card role">
+          <strong>Working Student — GWDG (Gesellschaft für wissenschaftliche Datenverarbeitung)</strong>
+          <div class="meta">Jun 2024 – Present · Göttingen, Germany</div>
+          <p>Engineered reproducible ML pipelines with <strong>ZenML</strong> and <strong>MLflow</strong> on HPC; built SLURM job scripts; integrated <strong>Jacamar CI</strong> with GitLab runners for secure, user‑isolated submissions. Delivered a <strong>3D U‑Net</strong> on BraTS (85.58% segmentation accuracy) and a transformer for arrhythmia detection; achieved <strong>~207 TFLOPS</strong> perf in workflows.</p>
+        </div>
+        <div class="card role">
+          <strong>Working Student — Histomography</strong>
+          <div class="meta">Aug 2023 – Jan 2024 · Göttingen, Germany</div>
+          <p>Implemented advanced image processing for <strong>3D X‑ray tissue</strong> data (OpenCV, scikit‑image, SciPy); optimized visualization with <strong>Napari</strong>; designed blob‑detection and histogram‑driven segmentation for large‑scale datasets.</p>
+        </div>
+        <div class="card role">
+          <strong>Software Engineer — LG Soft</strong>
+          <div class="meta">May 2022 – Oct 2022 · Bangalore, India</div>
+          <p>Built a real‑time <strong>Yoga Pose Correction</strong> feature (Keras PoC → C++ production with OpenPose heuristics). Fixed WebOS DASH playback via <strong>GStreamer</strong>; automated tests with <strong>Selenium</strong>; stood up the first remote SoC device farm (~100 boards); mentored interns/new hires.</p>
+        </div>
+        <div class="card role">
+          <strong>Machine Learning Intern — LG Soft</strong>
+          <div class="meta">Aug 2021 – Apr 2022 · Bangalore, India</div>
+          <p>Automated <strong>HbbTV</strong> testing using video analytics and computer vision; initiated pose‑correction research with dataset creation and a ~<strong>90% accuracy</strong> classification model.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="card">
+        <p><strong>Languages:</strong> Python, C++, SQL</p>
+        <p><strong>Frameworks/Libraries:</strong> PyTorch, TensorFlow, Django, Pandas, NumPy, OpenCV, Matplotlib, ZenML, MLflow, SLURM</p>
+        <p><strong>Domains:</strong> MLOps, Backend, Computer Vision, NLP, Data Analysis, REST APIs, JSON, XML, HPC, Knowledge Graphs, CI/CD, SLAM</p>
+        <p><strong>Databases & Tools:</strong> MySQL, PostgreSQL, Git, Docker, Heroku, Linux, Anaconda, Napari, VS Code, Jupyter, Label Studio, Neo4j</p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" aria-labelledby="edu-title">
+      <h2 id="edu-title">Education</h2>
+      <div class="card">
+        <p><strong>M.Sc. Applied Computer Science</strong> — Georg‑August‑Universität Göttingen · Oct 2022 – Present · Grade: 1.9</p>
+        <p><strong>B.Tech. Computer Science & Engineering</strong> — IIT Dharwad · Aug 2018 – Jul 2022 · Grade: 8.88/10 (German equivalent ~1.5)</p>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & LANGUAGES -->
+    <section id="extras" aria-labelledby="extras-title">
+      <h2 id="extras-title">Certifications & Languages</h2>
+      <div class="card">
+        <p><strong>Certification:</strong> Deep Learning Specialization — deeplearning.ai</p>
+        <p><strong>Languages:</strong> English (C1), German (A2)</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <div class="card">
+        <p>📧 <a href="mailto:krnsharma0209@gmail.com">krnsharma0209@gmail.com</a> &nbsp;·&nbsp; 📱 <a href="tel:+4917666236010">+49 176 66236010</a></p>
+        <p>GitHub: <a href="https://github.com/krn-sharma" target="_blank" rel="noopener">@krn-sharma</a> · LinkedIn: <a href="https://linkedin.com/krnsharma" target="_blank" rel="noopener">linkedin.com/krnsharma</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>© <span id="year"></span> Karan Sharma</small>
+    <small>Last updated: <time id="updated"></time></small>
+  </footer>
+</body>
+</html>
