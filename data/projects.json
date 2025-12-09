@@ -4,6 +4,7 @@
     "stack": "C++ · Python · OpenCV · SLAM · ArUco · PID · A*",
     "description": "Autonomous robot that collects & delivers color‑coded blocks. Used ArUco markers + homogeneous transforms for camera→robot/world frames, integrated SLAM for mapping and PID for motion control, and A* on a discretized grid for optimal paths.",
     "links": {
+      "demo": "assets/robot.mov",
       "source": "#"
     }
   },
