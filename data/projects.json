@@ -4,8 +4,8 @@
     "stack": "C++ · Python · OpenCV · SLAM · ArUco · PID · A*",
     "description": "Autonomous robot that collects & delivers color‑coded blocks. Used ArUco markers + homogeneous transforms for camera→robot/world frames, integrated SLAM for mapping and PID for motion control, and A* on a discretized grid for optimal paths.",
     "links": {
-      "demo": "assets/robot.mov",
-      "source": "#"
+      "demo video": "assets/robot.mov",
+      "github repository": "https://github.com/krn-sharma/autonomous-delivery-robot"
     }
   },
   {
@@ -13,7 +13,7 @@
     "stack": "CNN (sliding window) · OpenCV · TensorRT · ArmNN · Embedded",
     "description": "Convolutional sliding‑window detector for maize leaf diseases & nutrient deficiency (≈86% accuracy). Collected dataset in the field; deployed on Odroid XU4 (ArmNN/Linaro) and Jetson Nano (TensorRT).",
     "links": {
-      "source": "#"
+      "slides": "assets/disease_detection.pdf"
     }
   },
   {
@@ -21,7 +21,6 @@
     "stack": "Self‑supervised teacher–student · Label Studio · Python",
     "description": "Active‑learning loop with teacher–student self‑supervision for text datasets. Automated annotation & iteration in Label Studio to reduce manual labelling load.",
     "links": {
-      "writeup": "#"
     }
   },
   {
@@ -29,8 +28,7 @@
     "stack": "Django · REST API · Android · PostgreSQL · Heroku",
     "description": "Multi‑role web + Android system. Professors generate QR codes; students scan via Android app. Backend in Django with REST APIs; PostgreSQL on Heroku.",
     "links": {
-      "demo": "#",
-      "source": "#"
+
     }
   }
 ]
