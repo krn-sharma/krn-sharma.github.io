@@ -56,10 +56,11 @@
 
     const links = document.createElement('div');
     links.className = 'links';
-    if (p.links) {
-      if (p.links.demo) links.appendChild(btn('Demo', p.links.demo));
-      if (p.links.source) links.appendChild(btn('Source', p.links.source));
-      if (p.links.writeup) links.appendChild(btn('Write‑up', p.links.writeup));
+    if (p.links && typeof p.links === 'object') {
+      Object.entries(p.links).forEach(([label, href]) => {
+        if (!href) return;
+        links.appendChild(btn(formatLabel(label), href));
+      });
     }
 
     if (p.image) {
@@ -86,6 +87,16 @@
     a.rel = 'noopener';
     a.textContent = label;
     return a;
+  }
+
+  function formatLabel(raw){
+    if (!raw) return 'Link';
+    // Convert keys like "demo_video" or "github repository" to "Demo video"
+    return raw
+      .replace(/[-_]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .replace(/^./, c => c.toUpperCase());
   }
 
   document.addEventListener('DOMContentLoaded', loadProjects);
