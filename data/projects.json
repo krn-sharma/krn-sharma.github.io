@@ -11,7 +11,7 @@
   {
     "title": "Disease Detection in Maize Leaves",
     "stack": "CNN (sliding window) · OpenCV · TensorRT · ArmNN · Embedded",
-    "description": "Convolutional sliding‑window detector for maize leaf diseases & nutrient deficiency (≈86% accuracy). Collected dataset in the field; deployed on Odroid XU4 (ArmNN/Linaro) and Jetson Nano (TensorRT).",
+    "description": "Convolutional sliding‑window detector for maize leaf diseases & nutrient deficiency (≈98% accuracy). Collected dataset in the field combined with publicly available datasets; deployed on Odroid XU4 (ArmNN/Linaro) and Jetson Nano (TensorRT).",
     "links": {
       "slides": "assets/disease_detection.pdf"
     }
